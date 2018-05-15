@@ -132,7 +132,7 @@ div#top_nav a:hover:before, div#top_nav a.active:before {
   grid-column: 1/3;
   height: 220px;
   box-shadow: 10px 10px 5px #888;
-  background-image: url('../portfolio/assets/bluecity.png');
+  background-image: url('../sofyahoward.github.io/assets/bluecity.png');
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 1;
@@ -144,21 +144,21 @@ div#top_nav a:hover:before, div#top_nav a.active:before {
 .box2{
 box-shadow: 10px 10px 5px #888;
 height: 220px;
-background-image: url('../portfolio/assets/firebird.jpg');
+background-image: url('../sofyahoward.github.io/assets/firebird.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 }
 .box3{
 height: 250px;
 box-shadow: 10px 10px 5px #888;
-background-image: url('../portfolio/assets/strawberry.jpg');
+background-image: url('../sofyahoward.github.io/assets/strawberry.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 }
 .box4{
   height: 250px;
 box-shadow: 10px 10px 5px #888;
-background-image: url('../portfolio/assets/organize.jpg');
+background-image: url('../sofyahoward.github.io/assets/organize.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 opacity: 1;
@@ -169,7 +169,7 @@ opacity: 1;
 .box5{
 height: 250px;
 box-shadow: 10px 10px 5px #888;
-background-image: url('../portfolio/assets/road.jpg');
+background-image: url('../sofyahoward.github.io/assets/road.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 padding: 2%;
@@ -207,7 +207,7 @@ h5 {
   grid-column: 1;
   width: 220px;
   height: 220px;
-  background-image: url("../portfolio/assets/firebird.jpg");
+  background-image: url("../sofyahoward.github.io/assets/firebird.jpg");
   opacity: 1;
   margin-top: 3%;
   margin-bottom: 10%;
