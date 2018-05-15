@@ -189,10 +189,9 @@ video {
   float: left;
 }
 .ModalText {
-  float: left;
   text-align: center;
- align-self: center;
- width: 100%;
+  align-self: center;
+  width: 100%;
 
 }
 h5 {
