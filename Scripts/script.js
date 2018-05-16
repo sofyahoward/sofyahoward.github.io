@@ -1,3 +1,6 @@
+if (screen.width <= 400) {
+  document.location = "mobile.html";
+  }
 
 //Check to see if the window is top if not then display button
 $(window).scroll(function() {
