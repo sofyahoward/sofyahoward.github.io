@@ -6,7 +6,7 @@
 // });
 
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-  window.location = "https://www.google.com"; 
+  window.location = "https://sofyahoward.github.io/portfolio-m"; 
 }
 
 //Check to see if the window is top if not then display button
