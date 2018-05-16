@@ -1,10 +1,3 @@
-//Redirect to mobile version on mobile devices
-// $(window).on('load resize',function(){
-//   if($(window).width() < 950){
-//       window.location = "https://www.google.com"
-//   }
-// });
-
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
   window.location = "https://sofyahoward.github.io/portfolio-m"; 
 }
