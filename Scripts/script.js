@@ -1,6 +1,3 @@
-if (screen && screen.width < 480) {
-  tilt.tilt.destroy.call(tilt);
-}
 
 //Check to see if the window is top if not then display button
 $(window).scroll(function() {
@@ -24,7 +21,13 @@ $(document).ready(function(){
     $('.modal').modal({
       opacity: .7,
     });
+
   });
+
+  if (screen && screen.width > 480) {
+    const tilt = $('.js-tilt').tilt()
+    tilt.methods.destroy.call(tilt);  
+  }
 
  
 
