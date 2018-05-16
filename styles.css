@@ -184,7 +184,6 @@ padding: 2%;
   width: 80%;
   height: 100%;
   overflow: scroll;
-  z-index: 2;
 }
 video {
   float: left;
