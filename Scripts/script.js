@@ -21,3 +21,9 @@ $(document).ready(function(){
       opacity: .7,
     });
   });
+
+ 
+if (screen && screen.width > 480) {
+  document.write('<script type="text/javascript" src="../sofyahoward.github.io/Scripts/vanilla-tilt.min.js"><\/script>');
+}
+
