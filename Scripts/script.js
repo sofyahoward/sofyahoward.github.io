@@ -1,5 +1,5 @@
 if (screen && screen.width > 480) {
-  document.write('<script type="text/javascript" src="../sofyahoward.github.io/Scripts/vanilla-tilt.min.js"><\/script>');
+  document.write('tilt.tilt.destroy.call(tilt)');
 }
 
 //Check to see if the window is top if not then display button
