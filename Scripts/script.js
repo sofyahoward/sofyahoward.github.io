@@ -1,3 +1,7 @@
+if (screen && screen.width > 480) {
+  document.write('<script type="text/javascript" src="../sofyahoward.github.io/Scripts/vanilla-tilt.min.js"><\/script>');
+}
+
 //Check to see if the window is top if not then display button
 $(window).scroll(function() {
   if ($(this).scrollTop() > 100) {
@@ -23,7 +27,5 @@ $(document).ready(function(){
   });
 
  
-if (screen && screen.width > 480) {
-  document.write('<script type="text/javascript" src="../sofyahoward.github.io/Scripts/vanilla-tilt.min.js"><\/script>');
-}
+
 
