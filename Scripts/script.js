@@ -24,10 +24,10 @@ $(document).ready(function(){
 
   });
 
-  if (screen && screen.width > 480) {
-    const tilt = $('.js-tilt').tilt()
-    tilt.methods.destroy.call(tilt);  
-  }
+  // if (screen && screen.width < 480) {
+  //   const tilt = $('.js-tilt').tilt()
+  //   tilt.methods.destroy.call(tilt);  
+  // }
 
  
 
