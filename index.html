@@ -289,7 +289,18 @@
   <!-- THIS IS MATERIALIZE SCRIPT -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <!-- THIS IS THE TILT EFFECT -->
-  <!-- <script type="text/javascript" src="../sofyahoward.github.io/Scripts/vanilla-tilt.min.js"></script> -->
+  <script type="text/javascript" src="../sofyahoward.github.io/Scripts/vanilla-tilt.min.js"></script>
+  <script>
+  function isMobile() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    }
+    
+    if (!isMobile()) {
+    //place script you don't want to run on mobile here
+    <script type="text/javascript" src="../sofyahoward.github.io/Scripts/vanilla-tilt.min.js"></script>
+    }
+  </script>
+  
 </body>
 
 </html>
