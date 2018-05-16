@@ -1,6 +1,7 @@
-if (screen.width <= 400) {
-  document.location = "mobile.html";
-  }
+if (screen.width <= 699) {
+document.location = "./mobile.html"
+}
+
 
 //Check to see if the window is top if not then display button
 $(window).scroll(function() {
@@ -27,10 +28,6 @@ $(document).ready(function(){
 
   });
 
-  // if (screen && screen.width < 480) {
-  //   const tilt = $('.js-tilt').tilt()
-  //   tilt.methods.destroy.call(tilt);  
-  // }
 
  
 
