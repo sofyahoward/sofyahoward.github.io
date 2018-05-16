@@ -1,5 +1,5 @@
-if (screen && screen.width > 480) {
-  document.write('tilt.tilt.destroy.call(tilt)');
+if (screen && screen.width < 480) {
+  tilt.tilt.destroy.call(tilt);
 }
 
 //Check to see if the window is top if not then display button
