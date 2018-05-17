@@ -364,3 +364,39 @@ padding-bottom: 10px;
   text-align: center;
   color: #424242;
 }
+     
+/* CONTACT ME INPUT FORM */
+/* label focus color  */
+.input-field input[type=email]:focus + label {
+  color: #3b6e93 !important;
+}
+
+.input-field input[type=email]:focus {
+  border-bottom: 1px solid #273641 !important;
+  box-shadow: 0 1px 0 0 #3b6e93 !important;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+  color: #3b6e93 !important;
+ }
+
+/* label underline focus color */
+ .input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #3b6e93 !important;
+  box-shadow: 0 1px 0 0 #273641 !important;
+ }
+/* valid color */
+.input-field input[type=text].valid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid red;
+  box-shadow: 0 1px 0 0 red;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #3b6e93;
+}
+     
