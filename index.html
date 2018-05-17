@@ -41,6 +41,7 @@
 </head>
 
 <body>
+
   <!-- THIS IS THE BACKGROUND WRAPPER -->
   <div class="wrapperpage">
 
@@ -206,7 +207,7 @@
           <!-- <img src="firebird.jpg" alt="" class="circle responsive-img myphoto"> -->
         </div>
         <div class="box box7">
-          <h5 class="intro">Hey, my name is Sofya Howard. I am a fullstack software engineer with a passion for creating thechnology that makes the world a better place. As an educator at heart, I love making tech accessible for everyone through sweet UI/UX interfaces and the use of APIs. Check out my projects and get in touch, I love meeting new people.
+          <h5 class="intro">Hey, my name is Sofya Howard. I am a fullstack software engineer with a passion for creating technology that makes the world a better place. As an educator at heart, I love making tech accessible for everyone through sweet UI/UX interfaces and the use of APIs. Check out my projects and get in touch, I love meeting new people.
             Thank you for visiting my site.</h5>
 
         <!-- RESUME BUTTON -->
@@ -265,58 +266,59 @@
     </div>
   </div>
 
+  <?php $name = $_POST['name'];
+  $email = $_POST['email'];
+  $message = $_POST['message'];
+  $formcontent = "From: $name \n Message: $message";
+  $recipient = "sofya.howard@gmail.com";
+  $subject = "Contact Form";
+  $mailheader = "From: $email \r\n";
+  mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+  echo "Thank You!";
+?>
+
 
     <!-- THIS IS MY CONTACT PAGE -->
     <div class="contactmepage" id="contactmepageid">
     <a class="waves-effect waves-light btn red modal-trigger" href="#modalContactForm"><i class="material-icons left">email</i>Contact Me</a>
     </div>
-
     <div id="modalContactForm" class="modal modal-fixed-footer">
         <div class="modal-content">
           <h4>Let's Get in Touch</h4>
-          <div class="row">
-              <form class="col s12">
+
+
+
+          <div class="row" id="contact-row">
+              <form action="mail.php" method="POST" class="col s12">
                 <div class="row">
-                  <div class="input-field col s6">
-                      <i class="material-icons prefix">account_circle</i>
-                      <input id="first_name" type="text" class="validate">
-                      <label for="first_name">First Name</label>
-                  </div>
-                  <div class="input-field col s6">
-                    <i class="material-icons prefix">account_circle</i>
-                    <input id="last_name" type="text" class="validate">
-                    <label for="last_name">Last Name</label>
+                  <div class="input-field col s12">
+                    <input id="first_name" type="text" class="validate" name="name">
+                    <label for="first_name">Full Name</label>
                   </div>
                 </div>
                 <div class="row">
                   <div class="input-field col s12">
-                    <i class="material-icons prefix">email</i>
-                    <input id="email" type="email" class="validate">
-                    <label for="email" data-error="Hey there, this looks incorrect." data-success="right">Email</label>
+                    <input id="email" type="text" class="validate" name="email">
+                    <label for="email">Email</label>
                   </div>
                 </div>
-                <div class="row">
-                    <form class="col s12">
-                      <div class="row">
-                        <div class="input-field col s12">
-                          <i class="material-icons prefix">mode_edit</i>
-                          <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-                          <label for="icon_prefix2">Message</label>
-                        </div>
-                      </div>
-                    </form>
+                  <div class="row">
+                  <div class="input-field col s12">
+                    <textarea id="textarea1" class="materialize-textarea" type="text" name="message"></textarea>
+                    <label for="textarea1">Message</label>
                   </div>
                 </div>
+                 <input type="submit" value="Send">
               </form>
             </div>
-            <div class="modal-footer">
+            <!-- <div class="modal-footer"> -->
                 <!-- CLOSE THE MODAL -->
-                <a href="#!" class="close modal-action modal-close waves-effect waves-blue btn-flat left"><i class="material-icons">clear</i></a>
+                <!-- <a href="#!" class="close modal-action modal-close waves-effect waves-blue btn-flat left"><i class="material-icons">clear</i></a> -->
                 <!-- SUBMIT BUTTON -->
-                <button class="submitbtn btn waves-effect waves-light #455a64 blue-grey darken-2" type="submit" name="action">Submit
+                <!-- <button class="submitbtn btn waves-effect waves-light #455a64 blue-grey darken-2" type="submit" name="action">Submit
                     <i class="material-icons right">send</i>
-                  </button>
-              </div>
+                  </button> -->
+              <!-- </div> -->
         </div>
       </div>
 
