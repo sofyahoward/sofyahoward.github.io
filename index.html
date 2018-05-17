@@ -266,17 +266,6 @@
     </div>
   </div>
 
-  <?php $name = $_POST['name'];
-  $email = $_POST['email'];
-  $message = $_POST['message'];
-  $formcontent = "From: $name \n Message: $message";
-  $recipient = "sofya.howard@gmail.com";
-  $subject = "Contact Form";
-  $mailheader = "From: $email \r\n";
-  mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-  echo "Thank You!";
-?>
-
 
     <!-- THIS IS MY CONTACT PAGE -->
     <div class="contactmepage" id="contactmepageid">
@@ -285,11 +274,8 @@
     <div id="modalContactForm" class="modal modal-fixed-footer">
         <div class="modal-content">
           <h4>Let's Get in Touch</h4>
-
-
-
           <div class="row" id="contact-row">
-              <form action="mail.php" method="POST" class="col s12">
+              <form action="https://formspree.io/sofya.howard@gmail.com" method="POST" class="col s12">
                 <div class="row">
                   <div class="input-field col s12">
                     <input id="first_name" type="text" class="validate" name="name">
@@ -298,7 +284,7 @@
                 </div>
                 <div class="row">
                   <div class="input-field col s12">
-                    <input id="email" type="text" class="validate" name="email">
+                    <input id="email" type="text" class="validate" name="_replyto">
                     <label for="email">Email</label>
                   </div>
                 </div>
@@ -311,18 +297,13 @@
                  <input type="submit" value="Send">
               </form>
             </div>
-            <!-- <div class="modal-footer"> -->
                 <!-- CLOSE THE MODAL -->
-                <!-- <a href="#!" class="close modal-action modal-close waves-effect waves-blue btn-flat left"><i class="material-icons">clear</i></a> -->
-                <!-- SUBMIT BUTTON -->
-                <!-- <button class="submitbtn btn waves-effect waves-light #455a64 blue-grey darken-2" type="submit" name="action">Submit
-                    <i class="material-icons right">send</i>
-                  </button> -->
-              <!-- </div> -->
+                <a href="#!" class="close modal-action modal-close waves-effect waves-blue btn-flat right"><i class="material-icons">clear</i></a>
+           </div>
         </div>
       </div>
 
-    <!--  THIS IS THE FOOTER-->
+    <!-- THIS IS THE FOOTER -->
     <div class="footer">
       <a href="#"><i class="fa fa-github fa-3x github" aria-hidden="true"></i></a>
       <a href="#"><i class="fa fa-linkedin-square fa-3x linkedin" aria-hidden="true"></i></a>
