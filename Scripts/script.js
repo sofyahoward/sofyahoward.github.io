@@ -19,6 +19,7 @@ $('.scrollToTop').click(function() {
   return false;
 });
 
+// MODAL TRIGGER
 $(document).ready(function(){
     // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
     $('.modal').modal({
@@ -27,3 +28,11 @@ $(document).ready(function(){
 
   });
 
+  // CLICK-ENABLED MOBILE MENU
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.fixed-action-btn');
+    var instances = M.FloatingActionButton.init(elems, {
+      direction: 'left',
+      hoverEnabled: false
+    });
+  });
