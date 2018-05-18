@@ -202,44 +202,37 @@
 
         <!-- THIS IS MY CONTACT PAGE -->
         <div class="contactmepage" id="contactmepageid">
-          <a class="waves-effect waves-light btn red modal-trigger" href="#modalContactForm"><i class="material-icons left">email</i>Contact Me</a>
+          <a id = "contactFormBtn"class="waves-effect waves-light btn red" href="#formContainer"><i class="material-icons left">email</i>Contact Me</a>
           </div>
-          <div id="modalContactForm" class="modal modal-fixed-footer">
-              <div class="modal-content">
-                <h4>Let's Get in Touch</h4>
-                <div class="row" id="contact-row">
-                    <form action="https://formspree.io/sofya.howard@gmail.com" method="POST" class="col s12">
-                      <div class="row">
-                        <div class="input-field col s12">
-                          <i class="material-icons prefix">account_circle</i>
-                          <input id="first_name" type="text" class="validate" name="name">
-                          <label for="first_name">Full Name</label>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="input-field col s12">
-                          <i class="material-icons prefix">email</i>
-                          <input id="email" type="text" class="validate" name="_replyto">
-                          <label for="email" data-error="Hey, looks like this email is incorrect!" data-success="right">Email</label>
-                        </div>
-                      </div>
-                        <div class="row">
-                        <div class="input-field col s12">
-                          <i class="material-icons prefix">mode_edit</i>
-                          <textarea id="textarea1" class="materialize-textarea" type="text" name="message"></textarea>
-                          <label for="textarea1">Message</label>
-                        </div>
-                      </div>
-                       <!-- <input type="submit" value="Send"> -->
-                       <div class="center-align input-field col s12">
-                          <button class="btn waves-effect waves-light #546e7a blue-grey darken-1" type="submit" name="action" value= "Send">Submit
-                            <i class="material-icons right">send</i>
-                          </button>
-                       </div>
+              <div id="formContainer">
+                <div id = "insideForm">  
+                    <form id="contact" action="https://formspree.io/sofya.howard@gmail.com" method="POST">
+                      <span class="close">&times;</span>
+                      <h3 class="contactForm">Let's Get in Touch</h3>
+                      <p class="contactForm">Contact Me for a Custom Quote</p>
+                      <br>
+                      <fieldset>
+                          <input placeholder="Your name" type="text" name="name" tabindex="1" required autofocus>
+                      </fieldset>
+                      <fieldset>
+                           <input placeholder="Your Email Address" type="email" name="_replyto" tabindex="2" required>
+                      </fieldset>
+                      <fieldset>
+                           <input placeholder="Your Phone Number (optional)" type="tel" name="_phone" tabindex="3" required>
+                      </fieldset>
+                      <fieldset>
+                            <input placeholder="Your Web Site (optional)" type="url" name="siteURL" tabindex="4" required>
+                      </fieldset>
+                      <fieldset>
+                            <textarea placeholder="How may I assist you?" tabindex="5" name="message" required></textarea>
+                      </fieldset>
+                      <fieldset>
+                            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                          </fieldset>
                     </form>
                   </div>
-                 </div>
-              </div>
+                </div>
+              
            <!-- THIS IS THE SOCIAL MEDIA BUTTONS -->
       <div class="footer">
           <a href="#"><i class="fa fa-github fa-3x github" aria-hidden="true"></i></a>
@@ -260,8 +253,8 @@
 
         <!-- RESUME BUTTON -->
             <div class="resumebutton">
-              <a class="btn waves-effect waves-light modal-trigger red">
-                View Resume
+              <a class="resumebtn btn waves-effect waves-light modal-trigger red">
+               view resume
               </a>
             </div>
         </div>
@@ -329,7 +322,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <!-- THIS IS THE TILT EFFECT -->
   <script type="text/javascript" src="../sofyahoward.github.io/Scripts/vanilla-tilt.min.js"></script>
- 
+
+
 </body>
 
 </html>
