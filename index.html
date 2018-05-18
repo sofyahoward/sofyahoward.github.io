@@ -201,40 +201,43 @@
         </div>
 
         <!-- THIS IS MY CONTACT PAGE -->
-    <div class="contactmepage" id="contactmepageid">
-        <a class="waves-effect waves-light btn red modal-trigger" href="#modalContactForm"><i class="material-icons left">email</i>Contact Me</a>
-        </div>
-        <div id="modalContactForm" class="modal modal-fixed-footer">
-            <div class="modal-content">
-              <h4>Let's Get in Touch</h4>
-              <div class="row" id="contact-row">
-                  <form action="https://formspree.io/sofya.howard@gmail.com" method="POST" class="col s12">
-                    <div class="row">
-                      <div class="input-field col s12">
-                        <input id="first_name" type="text" class="validate" name="name">
-                        <label for="first_name">Full Name</label>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="input-field col s12">
-                        <input id="email" type="text" class="validate" name="_replyto">
-                        <label for="email">Email</label>
-                      </div>
-                    </div>
+        <div class="contactmepage" id="contactmepageid">
+          <a class="waves-effect waves-light btn red modal-trigger" href="#modalContactForm"><i class="material-icons left">email</i>Contact Me</a>
+          </div>
+          <div id="modalContactForm" class="modal modal-fixed-footer">
+              <div class="modal-content">
+                <h4>Let's Get in Touch</h4>
+                <div class="row" id="contact-row">
+                    <form action="https://formspree.io/sofya.howard@gmail.com" method="POST" class="col s12">
                       <div class="row">
-                      <div class="input-field col s12">
-                        <textarea id="textarea1" class="materialize-textarea" type="text" name="message"></textarea>
-                        <label for="textarea1">Message</label>
+                        <div class="input-field col s12">
+                          <i class="material-icons prefix">account_circle</i>
+                          <input id="first_name" type="text" class="validate" name="name">
+                          <label for="first_name">Full Name</label>
+                        </div>
                       </div>
-                    </div>
-                     <!-- <input type="submit" value="Send"> -->
-                     <button class="btn waves-effect waves-light #546e7a blue-grey darken-1 right" type="submit" name="action" value= "Send">Submit
-                        <i class="material-icons right">send</i>
-                      </button>
-                  </form>
-                </div>
-               </div>
-            </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <i class="material-icons prefix">email</i>
+                          <input id="email" type="text" class="validate" name="_replyto">
+                          <label for="email" data-error="Hey, looks like this email is incorrect!" data-success="right">Email</label>
+                        </div>
+                      </div>
+                        <div class="row">
+                        <div class="input-field col s12">
+                          <i class="material-icons prefix">mode_edit</i>
+                          <textarea id="textarea1" class="materialize-textarea" type="text" name="message"></textarea>
+                          <label for="textarea1">Message</label>
+                        </div>
+                      </div>
+                       <!-- <input type="submit" value="Send"> -->
+                       <button class="btn waves-effect waves-light #546e7a blue-grey darken-1 right" type="submit" name="action" value= "Send">Submit
+                          <i class="material-icons right">send</i>
+                        </button>
+                    </form>
+                  </div>
+                 </div>
+              </div>
            <!-- THIS IS THE SOCIAL MEDIA BUTTONS -->
       <div class="footer">
           <a href="#"><i class="fa fa-github fa-3x github" aria-hidden="true"></i></a>
