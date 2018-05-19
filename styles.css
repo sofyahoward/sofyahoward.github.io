@@ -84,6 +84,7 @@ div#top_nav a:hover:before, div#top_nav a.active:before {
   text-transform: uppercase;
   color: black;
   letter-spacing: 2px;
+  padding: 2%;
 }
 .projectspage {
   padding-top: 0px;
@@ -283,22 +284,19 @@ z-index: 0;
 .footer {
   text-align: center;
   overflow: hidden;
+  margin: 0;
 }
 
 .github {
-  padding: 30px;
+  padding-right: 30px;
 }
 
 .linkedin {
-  padding: 30px;
-}
-
-.dribble {
-  padding: 30px;
+  padding-right: 30px;
 }
 
 .slack {
-  padding: 30px;
+  padding-right: 30px;
 }
 
 /*THIS IS HOVER OVER EFFECT ON FOOTER*/
