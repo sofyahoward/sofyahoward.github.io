@@ -98,19 +98,16 @@ video {
   margin-bottom: 4%;
 }
 
-
-
-
-  .box {
+.box {
     padding: 10%;
     margin-bottom: 10%;
     margin-right: 5%;
-  }
+}
 
- .cssbox >div{
+.cssbox >div{
    /*background: #eee;*/
    padding:1em;
- }
+}
 
 .cssbox >div:nth-child(odd){
   /*background: #ddd;*/
@@ -120,7 +117,7 @@ video {
   grid-column: 1/3;
   height: 220px;
   box-shadow: 10px 10px 5px #888;
-  background-image: url('../sofyahoward.github.io/assets/bluecity.png');
+  background-image: url('../sofyahoward.github.io/assets/movies.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 1;
@@ -132,21 +129,21 @@ video {
 .box2{
 box-shadow: 10px 10px 5px #888;
 height: 220px;
-background-image: url('../sofyahoward.github.io/assets/firebird.jpg');
+background-image: url('../sofyahoward.github.io/assets/sushi.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 }
 .box3{
 height: 250px;
 box-shadow: 10px 10px 5px #888;
-background-image: url('../sofyahoward.github.io/assets/strawberry.jpg');
+background-image: url('../sofyahoward.github.io/assets/day.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 }
 .box4{
-  height: 250px;
+height: 250px;
 box-shadow: 10px 10px 5px #888;
-background-image: url('../sofyahoward.github.io/assets/organize.jpg');
+background-image: url('../sofyahoward.github.io/assets/calendar.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 opacity: 1;
@@ -157,7 +154,7 @@ opacity: 1;
 .box5{
 height: 250px;
 box-shadow: 10px 10px 5px #888;
-background-image: url('../sofyahoward.github.io/assets/road.jpg');
+background-image: url('../sofyahoward.github.io/assets/hangout.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 padding: 2%;
@@ -200,7 +197,8 @@ h5 {
   grid-column: 1;
   width: 220px;
   height: 220px;
-  background-image: url("../sofyahoward.github.io/assets/firebird.jpg");
+  background-image: url("../sofyahoward.github.io/assets/Sofya.jpg");
+  background-size: cover;
   opacity: 1;
   margin-top: 3%;
   margin-bottom: 10%;
@@ -233,6 +231,16 @@ z-index: 0;
 }
 .resumebtn {
   z-index: 0;
+}
+.resume {
+  width: 85%;
+    height: 1000px;
+    background-image: url('../sofyahoward.github.io/assets/SofyaHowardResume.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 15%;
+    margin-right: 15%;
+ 
 }
 /*THIS IS MY SKILLS PAGE*/
 .skillspage {
