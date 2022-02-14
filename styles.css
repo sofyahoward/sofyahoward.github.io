@@ -117,7 +117,7 @@ video {
   grid-column: 1/3;
   height: 220px;
   box-shadow: 10px 10px 5px #888;
-  background-image: url('../sofyahoward.github.io/assets/movies.jpg');
+  background-image: url('/assets/movies.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 1;
@@ -129,21 +129,21 @@ video {
 .box2{
 box-shadow: 10px 10px 5px #888;
 height: 220px;
-background-image: url('../sofyahoward.github.io/assets/sushi.jpg');
+background-image: url('/assets/sushi.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 }
 .box3{
 height: 250px;
 box-shadow: 10px 10px 5px #888;
-background-image: url('../sofyahoward.github.io/assets/day.jpg');
+background-image: url('/assets/day.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 }
 .box4{
 height: 250px;
 box-shadow: 10px 10px 5px #888;
-background-image: url('../sofyahoward.github.io/assets/calendar.jpg');
+background-image: url('/assets/calendar.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 opacity: 1;
@@ -154,7 +154,7 @@ opacity: 1;
 .box5{
 height: 250px;
 box-shadow: 10px 10px 5px #888;
-background-image: url('../sofyahoward.github.io/assets/hangout.jpg');
+background-image: url('/assets/hangout.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 padding: 2%;
@@ -197,7 +197,7 @@ h5 {
   grid-column: 1;
   width: 220px;
   height: 220px;
-  background-image: url("../sofyahoward.github.io/assets/Sofya.jpg");
+  background-image: url("/assets/Sofya.jpg");
   background-size: cover;
   opacity: 1;
   margin-top: 3%;
@@ -235,7 +235,7 @@ z-index: 0;
 .resume {
     width: 85%;
     height: 1000px;
-    background-image: url('../sofyahoward.github.io/assets/SofyaHowardResume1.jpg');
+    background-image: url('/assets/SofyaHowardResume1.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     margin-left: 15%;
